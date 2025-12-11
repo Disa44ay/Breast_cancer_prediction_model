@@ -96,10 +96,11 @@ Evaluation metrics used:
 
 ## 🗂️ Repository Structure
 
-    ML_Basic/
-    │── KNN_Kmeans.ipynb     # Main notebook
-    │── README.md            # Project explanation
-    └── Dataset.csv          # Dataset (optional)
+Breast_cancer_prediction_model/
+│── Breast_Cancer_Prediction_Model.ipynb   # Main Jupyter notebook 
+│── model_workflow.txt                     # Workflow summary 
+│── README.md                              # Project explanation 
+└── Dataset.csv                             # Dataset file 
 
 ------------------------------------------------------------------------
 
@@ -110,3 +111,4 @@ This project showcases: - Preprocessing
 - Clustering (K-Means)
 - Classification (KNN)
 - Model evaluation
+
