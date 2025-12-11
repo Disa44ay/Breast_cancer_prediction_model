@@ -1,0 +1,47 @@
+Breast Cancer Prediction Model - Workflow
+
+1.  Imported essential libraries:
+
+-   pandas for data handling
+-   numpy for numerical operations
+-   matplotlib for visualization
+-   LabelEncoder for encoding categorical labels
+-   MinMaxScaler for feature normalization
+-   train_test_split for splitting dataset
+-   KMeans for clustering
+-   KNeighborsClassifier for classification
+-   accuracy, precision, recall, and F1-score for evaluation
+
+2.  Encoded the ‘diagnosis’ column using LabelEncoder to convert M/B
+    into numeric values.
+
+3.  Selected ‘diagnosis’ as the target column and separated the dataset
+    into:
+
+-   X: feature variables
+-   Y: target labels
+
+4.  Applied MinMaxScaler to normalize all feature values between 0 and
+    1.
+
+5.  Split the dataset into training and testing sets using
+    train_test_split (80% train, 20% test).
+
+6.  Applied KMeans clustering with 2 clusters to identify underlying
+    patterns and added the cluster label as a new feature for both
+    training and test datasets.
+
+7.  Trained a KNN classifier (k=5) using the training data including the
+    cluster feature.
+
+8.  Predicted outcomes on the test dataset and evaluated model
+    performance using:
+
+-   Accuracy
+-   Precision
+-   Recall
+-   F1-score
+
+This workflow demonstrates preprocessing, clustering, classification,
+and evaluation steps for building a reliable breast cancer prediction
+system.
